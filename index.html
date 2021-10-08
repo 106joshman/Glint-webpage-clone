@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap css -->
+    <link rel="stylesheet" href="/bootstrap.min.css">
+        <!-- Custom css -->
+    <link rel="stylesheet" href="stylesheet.css">
+        <!--font for text-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+        <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- Animation link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- Title -->
+    <title>Plants</title>
+</head>
+<body>
+    <div class="parallax"></div>
+    <div class="bod">
+        <!-- logo and anchor links -->
+        <div class="container-fluid main">
+            <a class="navbar-brand text-light fs-1 fw-bolder" href="/"><h2 class="p-1">Glint.</a>
+        </div>
+        <!-- navigation -->
+        <div class="menu py-5 px-5 fixed-top text-end text-uppercase" id="menu" onclick="openNav()">Menu<i class="fas fa-bars text-light border-0"></i>
+        </div>
+        <div id="mySideNav" class="sidenav sticky">
+            <a href="" class="closebtn" onclick="closeNav()">Navigation &times;</a>
+            <div class="nav">
+                <a href="/">Home</a>
+                <a href="#about">About</a>
+                <a href="#service">Services</a>
+                <a href="http://">Works</a>
+                <a href="http://">Clients</a>
+                <a href="http://">Contact</a>
+            </div>
+        </div>
+        <div class="hero d-flex space-between my-5 px-5 py-5" data-aos="fade-up" data-aos-duration="500">
+            <div class="col-md-6 text">
+                <h3 class="text-secondary fw-bold ">WELCOME TO GLINT</h3>
+                <h1 class="text-light mb-4 fs-1 hero-text">We are a creative group of people who design influential brands and digital experiences.</h1>
+                <div class="d-grid gap-2 d-sm-flex pt-5">
+                    <button type="button" class="btn border-light btn-outline-light text-uppercase btn-sm-lg px-3 gap-3">start a project</button>
+                    <button type="button" class="btn border-2 border-light btn-outline-light text-uppercase btn-sm-lg px-3">more about us</button>
+                </div>
+            </div>
+            <div class="col row icons my-3 pe-5 text-end ms-5">                  
+                <a class="text-light" href="#"><i class="fab fa-facebook"></i></a>
+                <a class="text-light" href="#"><i class="fab fa-instagram"></i></a>
+                <a class="text-light" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="text-light" href="#"><i class="fab fa-behance"></i></a>
+                <a class="text-light" href="#"><i class="fas fa-basketball-ball"></i></a>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <div class="text-center about-text" data-aos="fade-up" data-aos-duration="500">
+                <p class="h6 text-dark fw-bold pb-0 text-uppercase">hello there</p>
+                <p class="h1 text-light pb-0">We Are Glint</p>
+            </div>
+            <div class="px-4 lorem" data-aos="fade-up" data-aos-duration="700">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto vel deserunt aperiam, obcaecati, asperiores, fugit ducimus reiciendis vero nihil quis atque perferendis nostrum illo illum ipsum at ex itaque odit explicabo excepturi! Totam iure possimus mollitia in cum assumenda aperiam, delectus, deleniti repudiandae ipsum sapiente est ducimus rerum consectetur provident? Doloribus, vero dignissimos excepturi molestiae unde necessitatibus velit atque fugit.</p>
+            </div>
+            <div class="numbers row align-items-center text-center my-3 py-4">
+                <div class="one col-md-6 my-5-md">
+                    <p class="h1 fw-bolder text-light">127</p>
+                    <p class="fw-bold">Awards Received</p>
+                </div>
+                <div class="two col-md-6 my-5-md">
+                    <p class="h1 fw-bolder text-light">1505</p>
+                    <p class="fw-bold">Cups of Coffee</p>
+                </div>
+                <div class="three col-md-6 my-5-md">
+                    <p class="h1 fw-bolder text-light">109</p>
+                    <p class="fw-bold">Projects Completed</p>
+                </div>
+                <div class="four col-md-6 my-5-md">
+                    <p class="h1 fw-bolder text-light">102</p>
+                    <p class="fw-bold">Happy Clients</p>
+                </div>
+            </div>
+        </div>
+        <div class="service" id="service">
+            <div class="text-center service-title" data-aos="fade-up" data-aos-duration="500">
+                <p class="h6 text-success fw-bold pb-0 text-uppercase">what we do</p>
+                <p class="h1 text-dark pb-0">We’ve got everything you need to launch and grow your business</p>
+            </div>
+            <div class="service-card row pt-5 px-auto">
+                <div class="brand col-6 px-5" data-aos="fade-up" data-aos-duration="500">
+                    <i class="fas fa-brush"></i>
+                    <div class="ryt">
+                        <h4>Brand identity</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, vitae voluptatibus libero dolore, a consequuntur perspiciatis ex laudantium cumque culpa praesentium rem similique quam adipisci. Dignissimos iste possimus porro maxime?</p>
+                    </div>
+                </div>
+                <div class="ilus col-6 px-5" data-aos="fade-up" data-aos-duration="500">
+                    <i class="fas fa-bezier-curve"></i>
+                    <div class="ryt">
+                        <h4>Illustration</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, vitae voluptatibus libero dolore, a consequuntur perspiciatis ex laudantium cumque culpa praesentium rem similique quam adipisci. Dignissimos iste possimus porro maxime?</p>
+                    </div>
+                </div>
+                <div class="market col-6 px-5" data-aos="fade-up" data-aos-duration="500">
+                    <i class="fad fa-bullhorn"></i>
+                   <div class="ryt">
+                        <h4>Marketing</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, vitae voluptatibus libero dolore, a consequuntur perspiciatis ex laudantium cumque culpa praesentium rem similique quam adipisci. Dignissimos iste possimus porro maxime?</p>
+                   </div>
+                </div>
+                <div class="design col-6 px-5" data-aos="fade-up" data-aos-duration="500">
+                    <i class="fas fa-globe-europe"></i>
+                    <div class="ryt">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, vitae voluptatibus libero dolore, a consequuntur perspiciatis ex laudantium cumque culpa praesentium rem similique quam adipisci. Dignissimos iste possimus porro maxime?</p>
+                    </div>
+                </div>
+                <div class="packing col-6 px-5" data-aos="fade-up" data-aos-duration="500">
+                    <i class="fal fa-cube"></i>
+                   <div class="ryt">
+                        <h4>Packaging Design</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, vitae voluptatibus libero dolore, a consequuntur perspiciatis ex laudantium cumque culpa praesentium rem similique quam adipisci. Dignissimos iste possimus porro maxime?</p>
+                   </div>
+                </div>
+                <div class="web-dev col-6 px-5" data-aos="fade-up" data-aos-duration="500">
+                    <i class="fas fa-code"></i>
+                    <div class="ryt">
+                        <h4>Web Development</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, vitae voluptatibus libero dolore, a consequuntur perspiciatis ex laudantium cumque culpa praesentium rem similique quam adipisci. Dignissimos iste possimus porro maxime?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="px-4 footer row d-flex justify-content-between">
+            <div class="lef my-4 col-md-6">
+                <div class="top h1 text-success my-2">Glint</div>
+                <div class="txt">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quas deleniti hic eos consequuntur, a saepe modi corporis doloremque pariatur architecto quos quis dignissimos suscipit?</p>
+                </div>
+            </div>
+            <div class="rit my-4 col-md-6">
+                <div class="text-light my-2 h4">Get Notified</div>
+                <div class="txt">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque nobis nisi animi, voluptas tempore quae.
+                </div>
+            </div>
+
+            <div class="base text-center my-5">
+                &copy; copyright Glint. Cloned by <a href="http://">&#64;joshman</a>
+            </div>
+        </div>
+    </div>
+    <div class="parallax"></div>
+    <script>
+        function openNav() {
+            document.getElementById("menu").style.visibility = "hidden";
+            document.getElementById("mySideNav").style.width = "250px";
+            document.getElementById("mySideNav").style.position = "fixed";
+        }
+
+        function closeNav() {
+            document.getElementById("mySideNav").style.width = "-200px";
+        }
+    </script>
+    <script src="/bootstrap.bundle.min.js"></script>
+    <!-- animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 500,
+        });
+    </script>
+</body>
+</html>
+
