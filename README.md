@@ -1,3 +1,3 @@
 # Glint-webpage-clone
 
-## a clone web page template of Glint
+## A clone web page template of Glint
